@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    margin: 0;
+    background: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: contain;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.card {
+    width: 350px;
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 20px 0;
+}
+
+.card-hero img {
+    width: 350px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card h1 {
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 5px;
+    font-weight: 900;
+}
+
+.card p {
+    font-size: 15px;
+    width: 80%;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+    line-height: 1.7;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background-color: hsl(225, 100%, 98%);
+    padding: 0 16px;
+    border-radius: 12px;
+    margin: 8px;
+}
+
+.plan-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-left h3 {
+    padding: 0;
+    margin-bottom: 0;
+    color: hsl(223, 47%, 23%);
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.plan-left p {
+    padding-top: 0px;
+    margin-top: 2px;
+}
+
+.change {
+    font-size: smaller;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+
+.music {
+    height: 70%;
+    margin-right: 8px;
+}
+
+.proceed {
+    width: 85%;
+    padding: 13px 12px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 7px;
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.proceed:hover {
+    background-color: hsl(245, 77%, 46%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+.cancel {
+    text-decoration: none;
+    padding-top: 20px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
